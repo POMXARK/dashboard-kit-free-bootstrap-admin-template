@@ -92,3 +92,10 @@ Please generate a Github issue if you found a bug in any version. We are trying 
 ## Further Support
 
 - Create Ticket here: https://codedthemes.support-hub.io/
+
+
+## Show deprecated packages
+```
+npm i -g npm-check-updates
+ncu
+```

@@ -271,23 +271,23 @@ new-task {
     }
 }
 
-.task-board-start {
-    .task-end-header-revision,
-    .task-end-header-status,
-    .task-end-header-users {
+.task-board-left {
+    .task-right-header-revision,
+    .task-right-header-status,
+    .task-right-header-users {
         padding-bottom: 10px;
         padding-top: 10px;
         border-bottom: 1px solid #f1f1f1;
         cursor: pointer;
     }
 
-    .taskboard-end-progress,
-    .taskboard-end-revision,
-    .taskboard-end-users {
+    .taskboard-right-progress,
+    .taskboard-right-revision,
+    .taskboard-right-users {
         padding-top: 10px;
     }
 
-    .taskboard-end-progress {
+    .taskboard-right-progress {
         .progress {
             height: 9px;
             margin-bottom: 25px;
@@ -301,7 +301,7 @@ new-task {
             cursor: pointer;
         }
 
-        .media-start {
+        .media-left {
             position: relative;
         }
 
@@ -579,7 +579,7 @@ new-task {
                 border-radius: 0 20px 20px 0;
                 text-transform: capitalize;
                 border: 1px solid transparent;
-                border-start: none;
+                border-left: none;
                 color: $body-color;
 
                 i {
@@ -642,7 +642,7 @@ new-task {
             display: inline-block;
         }
 
-        .mail-start {
+        .mail-left {
             position: fixed;
             top: $header-height;
             left: -100vw;

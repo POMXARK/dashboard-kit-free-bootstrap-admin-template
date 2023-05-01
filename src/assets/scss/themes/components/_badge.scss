@@ -5,9 +5,9 @@
 .badge {
     @each $color, $value in $theme-colors {
         &.bg-light-#{$color} {
-            background: shift-color($value, $soft-bg-level);
+            background: scale-color($value, $soft-bg-level);
             color: $value;
-            border-color: shift-color($value, $soft-bg-level);
+            border-color: scale-color($value, $soft-bg-level);
         }
     }
 }

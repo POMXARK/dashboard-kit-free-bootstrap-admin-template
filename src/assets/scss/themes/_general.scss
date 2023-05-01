@@ -525,12 +525,12 @@ pre[class*="language-"]>code{
 }
 
 .blockquote {
-    border-start: 0.25rem solid $border-color;
+    border-left: 0.25rem solid $border-color;
     padding: 0.5rem 1rem;
 
-    &.text-end {
-        border-start: none;
-        border-end: 0.25rem solid $border-color;
+    &.text-right {
+        border-left: none;
+        border-right: 0.25rem solid $border-color;
     }
 }
 /* ================================    Blockquote End  ===================== */
@@ -548,40 +548,4 @@ pre[class*="language-"]>code{
 .fixed-button.active {
     bottom: 50px;
     opacity: 1;
-}
-
-
-.pc-sidebar .card {
-    background: rgba(255, 255, 255, 0.05);
-    margin: 20px;
-    box-shadow: 0 0 0 1px rgba(226, 229, 232, 0.15);
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.pc-sidebar .card h6 {
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.pc-sidebar .card .btn-close {
-    position: absolute;
-    color: #97a7c1;
-    position: absolute;
-    top: 10px;
-    right: 12px;
-    opacity: 0.8;
-    text-shadow: none;
-}
-
-.pc-sidebar.menu-light .card {
-    background: rgba(214, 190, 190, 0.1);
-    box-shadow: 0 0 0 1px #ecf0f5;
-    color: rgba(0, 0, 0, 0.6);
-}
-
-.pc-sidebar.menu-light .card h6 {
-    color: #535763;
-}
-
-.pc-sidebar.navbar-collapsed .card {
-    display: none;
 }

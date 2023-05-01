@@ -1,5 +1,5 @@
 var gulp = require('gulp'), // main
-    sass = require('gulp-sass'), // scss compiler
+    sass = require('gulp-sass')(require('node-sass')), // scss compiler
     sourcemaps = require('gulp-sourcemaps'), // scss sourcemaps
     concat = require('gulp-concat'), // merge two files
     uglify = require('gulp-uglify'), // minify js files
